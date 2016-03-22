@@ -88,21 +88,24 @@
 
     </RadioGroup>
 
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date"
-        android:id="@+id/dateButton"
-        android:layout_below="@+id/gender"
-        android:onClick="showDatePickerDialog"
-        />
+        android:text="DOB"
+        android:textSize="25dp"
+        android:id="@+id/dobTitle"
+        android:layout_below="@id/gender"/>
 
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="SUBMIT"
-        android:id="@+id/submitButton"
-        android:layout_below="@+id/dateButton"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/editDate"
+        android:layout_below="@+id/gender"
+        android:layout_alignTop="@id/dobTitle"
+        android:layout_toRightOf="@id/dobTitle"
+        android:onClick="showDatePickerDialog"
+        android:textSize="25dp"
+        android:textAlignment="center" />
 
 </RelativeLayout>
