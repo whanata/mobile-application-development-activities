@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exercise2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Exercise 2 Going MAD!</string>
+    <string name="titleComment">Playing with nested layout!</string>
+    <string name="fillName">Your name</string>
+    <string name="fillEmail">Your email</string>
+    <string name="fillPhoneNumber">Your phone</string>
+    <string name="submit">SUBMIT</string>
+    <string name="clearAll">CLEAR ALL</string>
+    <string name="exit">EXIT</string>
+    <string name="clickSubmit">Submit button clicked</string>
+    <string name="title_activity_activity_two">ActivityTwo</string>
+    <string name="defaultPhoneOptions">Home</string>
+    <string name="agreeCheckbox">I Agree</string>
+    <string name="agreed">I Agree</string>
+    <string name="notAgreed">I Disagree</string>
+</resources>
