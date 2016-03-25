@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.id11993577.exercise2.ActivityTwo"
+    tools:showIn="@layout/activity_two">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showName"
+        android:text="@string/fillName"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPhoneNumber"
+        android:layout_below="@id/showName"
+        android:text="@string/fillPhoneNumber"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPhoneType"
+        android:text="@string/defaultPhoneOptions"
+        android:layout_below="@id/showPhoneNumber"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showEmail"
+        android:text="@string/fillEmail"
+        android:layout_below="@id/showPhoneType"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showEmail"
+        android:id="@+id/checkedAgree"
+        android:text="@string/agreeCheckbox"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit"
+        android:onClick="onSubmit"/>
+
+</RelativeLayout>
